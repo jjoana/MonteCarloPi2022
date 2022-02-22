@@ -28,7 +28,7 @@ public class Principal{
  * @param args array de argumentos que define la ejecución del programa.
  */
     public static void main(String[] args){
- 	System.out.println("El número PI es " + Matematicas.generarNumeroPi(Integer.parseInt(args[0])));
+ 	System.out.println("El numero PI es " + Matematicas.generarNumeroPi(Integer.parseInt(args[0])));
 
 	}
 }
