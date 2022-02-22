@@ -33,8 +33,11 @@ make javadoc
 ```
 - Aproximación Pi:
 ```shell
-java -jar ap-Matematicas.jar 
+java -jar ap-Matematicas.jar 10000
+
+"10000" marca el número de intentos a realizar para llevar a cabo la aproximación.
 ```
+
 - Compilación código: 
 ```shell
 make compilar
