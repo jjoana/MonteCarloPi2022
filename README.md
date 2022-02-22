@@ -17,16 +17,32 @@ Esta práctica consiste en la obtención del número Pi mediante el método de M
 [enlace a wikipedia](https://es.wikipedia.org/wiki/Método_de_Montecarlo)
 
 ## Forma de utilizar este programa 
-Para ejecutar este problema debe escribir make ejecutar. El número de iteraciones que realizará el programa está definido en el archico "makefile" (10.000.000) y, si se desea modificar el número de iteraciones deberá modificarse la última fila del "makefile" de la siguiente forma:
-
-	java -cp bin aplicacion.Principal ***número de iteraciones***
 
 El máximo número de iteraciones permitidas por el programa son 2.147.483.647, ya que hemos definido la variable número de iteraciones como un número entero.
 El programa no hemos hecho el control de excepciones para el caso en que el número de iteraciones introducidas por el usuario sea mayor que ese número.
 
+## Comandos
+
+- Elaboración Jar
+```shell
+make jar
+```
+- Elaboración Javadoc
+```shell
+make javadoc
+```
+- Aproximación Pi:
+```shell
+java -jar ap-Matematicas.jar 
+```
+- Compilación código: 
+```shell
+make compilar
+```
+
 
 ## Analisis de complejidad del método empleado
-> La complejidad del algoritmo utilizado en este programa es "Complejidad lineal". Es una complejidad buena y también muy usual. Aperece en la evaluación de bucles simples siempre que la complejidad de las instrucciones interiores sea constante.
+> La complejidad del algoritmo utilizado en este programa es "Complejidad lineal". Es una complejidad algoritmica muy usual. Aperece en la evaluación de bucles simples siempre que la complejidad de las instrucciones sea constante.
 [enlace a wikipedia](https://monografias.com/trabajos27/complejidad-algoritmica/complejidad_algoritmica.shtml#complej)
 
 
