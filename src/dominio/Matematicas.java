@@ -32,7 +32,7 @@ public class Matematicas{
 		
 		double dentroCirculo=0.0;
 		double dentroCuadrado=0.0;
-		final int areaCuadrado = 4;
+		double areaCuadrado = 4.0;
 		double coordenadaX;
 		double coordenadaY;
 		double Pi;
@@ -47,7 +47,7 @@ public class Matematicas{
 			dentroCuadrado++;
 		}
 
-		Pi = 4.0 * (dentroCirculo/dentroCuadrado);
+		Pi = areaCuadrado * (dentroCirculo/dentroCuadrado);
 		return Pi;
 	}
 
